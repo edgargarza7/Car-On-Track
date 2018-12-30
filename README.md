@@ -18,3 +18,23 @@ This repo has a pre-trained Neural Network model saved in the file name `model_0
 
 **Very Important:** One of the key facts about Machine Learning is that is is hard! Why is it hard? Well, one reason is that when you train a machine learning model to do a task (like drive a car around a track), the model will learn only what it can _from the data you provide it_. So, if you provide the car training data to drive around a certain track (like the one in the picture above), then the car will learn how to drive on tracks like _that one_. It will **not** learn how to drive on a _different_ track. Super lame, right? One key to success in machine learning is to have a **great** dataset to train your model. You want to have a dataset that represents _all_ the different things your model might encounter in the real world. Now, there are also some tricks we can do to make our datasets better (we'll discuss those in a later lesson), but for now here is the takeaway: the pre-trained network we provide here might not work on a track _you_ build at home (especially if your track is very different from ours). There is no harm in trying it, just keep this important fact in mind while you do. If this model doesn't work on your track, then we will teach you how to collect training data on your track and train your own machine learning model! Get excited!
 
+Now that you've read the important note above, head over to your Jupyter session, and click on the notework named `Car-on-Track.ipynb`. (Do not open it in GitHub, you must open that file from inside the Jupyter session of your AutoAuto car.) Read through that notebook and execute the code. See if our pre-trained model works on your track!
+
+### Step 4: Collect your own Traning Dataset
+
+From a Jupyter terminal session (like you used in Step 1), run the python script named `Data-Collector.py`, like this:
+
+```bash
+cd Car-On-Track
+python Data-Collector.py
+```
+
+That starts the program that lets you drive your car around the track. Use the keys below to drive your car. Each time you press a key, you will collect one data point. You'll want to collect ~8,000 data points (at least, for our track, that's about what we needed).
+
+### Step 5: Train a Neural Network on your Dataset
+
+TODO
+
+### Step 6: Test your Neural Network!
+
+TODO
