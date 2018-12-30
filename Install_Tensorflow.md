@@ -4,7 +4,7 @@
 
 ![AutoAuto Fleet 1 Car](https://autoauto-static-uploads.s3.amazonaws.com/d452293bcac14e65a3370c54e9027e79.JPG)
 
-You first must SSH into your car to gain privileged access. On you [device page](https://labs.autoauto.ai/autopair/) click the yellow `i` button to see your device's "Info for Advanced Users". There you will find details for how to SSH into your device.
+You first must SSH into your car to gain privileged access. On your [device page](https://labs.autoauto.ai/autopair/) click the yellow `i` button to see your device's "Info for Advanced Users". There you will find details for how to SSH into your device.
 
 After you have gained SSH access, you can run the following commands on your device. Copy-paste each command into your SSH session to run the command on your device.
 
