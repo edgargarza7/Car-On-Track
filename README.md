@@ -31,10 +31,12 @@ python Data-Collector.py
 
 That starts the program that lets you drive your car around the track. Use the keys below to drive your car. Each time you press a key, you will collect one data point. You'll want to collect ~8,000 data points (at least, for our track, that's about what we needed).
 
-### Step 5: Train a Neural Network on your Dataset
+That program saves files into a folder named `new_data`. You'll use the files inside `new_data` in the next step.
 
-TODO
+### Step 5: Train your own Neural Network!
+
+The notebook named `NN.ipynb` will train a new Neural Network model using the dataset your collected in the previous step. Open that notebook, and follow the instructions inside it.
 
 ### Step 6: Test your Neural Network!
 
-TODO
+In the previous step, you trained your own Neural Network on your own dataset. Now you will use your model and see if it works! Modify the notebook named `Car-on-Track.ipynb` so that it loads your model, and try it out. Good luck!
