@@ -40,3 +40,10 @@ The notebook named `NN.ipynb` will train a new Neural Network model using the da
 ### Step 6: Test your Neural Network!
 
 In the previous step, you trained your own Neural Network on your own dataset. Now you will use your model and see if it works! Modify the notebook named `Car-on-Track.ipynb` so that it loads your model, and try it out. Good luck!
+
+## Resources for Future Enhancements
+
+- https://github.com/EdjeElectronics/TensorFlow-Object-Detection-on-the-Raspberry-Pi
+- https://medium.com/nanonets/how-to-easily-detect-objects-with-deep-learning-on-raspberrypi-225f29635c74
+- https://medium.com/nanonets/how-to-automate-surveillance-easily-with-deep-learning-4eb4fa0cd68d
+- https://medium.com/nanonets/how-we-flew-a-drone-to-monitor-construction-projects-in-africa-using-deep-learning-b792f5c9c471
